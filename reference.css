@@ -1,0 +1,48 @@
+/* Page Intro --------------------------------------------------------------------------------------------------------------- */
+.wrapper {
+    display: flex; /* Utilizar flexbox para alineación horizontal */
+    flex-wrap: wrap; /* Permitir ajuste en vistas más pequeñas */
+    justify-content: space-between; /* Espacio entre el iframe y el contenido */
+    align-items: center; /* Alineación vertical centrada */
+    padding: 15px 0;
+}
+
+.iframe-container {
+    width: 40%; /* Ajusta el ancho del iframe según tus necesidades */
+    height: 450px; /* Ajusta la altura según tus necesidades */
+    margin-left: 10px; /* Ajusta el margen izquierdo según tus necesidades */
+    border: none; /* Elimina cualquier borde del iframe */
+}
+
+#pageintro {
+    display: flex;
+    flex-direction: column; /* Para asegurarte de que los elementos dentro se alineen en columna */
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* El contenido ocupa el 50% del ancho */
+    text-align: center; /* Opcional: para centrar el texto dentro del contenedor */
+    padding: 80px 0;
+}
+
+#pageintro article {
+    display: block;
+    max-width: 100%; /* Ajusta para ocupar todo el ancho disponible */
+    margin: 0 auto; /* Centra el artículo horizontalmente */
+}
+
+#pageintro .heading {
+    margin-bottom: 0px;
+    font-size: 4rem;
+}
+
+#pageintro p:first-of-type {
+    margin: 0 0 0px 0;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+}
+
+#pageintro footer {
+    margin-top: 10px;
+}
+
